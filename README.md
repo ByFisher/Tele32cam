@@ -1,2 +1,69 @@
-# Tele32cam
-Telegram kontrollü, görüntü işleme tabanlı nesne takip ve ESP32-CAM güvenlik sistemi
+<div align="center">
+
+  <h1>📸 ESP32-CAM Akıllı Masa Güvenlik Sistemi</h1>
+
+  <p>
+    <b>Telegram üzerinden kontrol edilebilen, yapay görme tabanlı nesne takip ve güvenlik sistemi.</b>
+  </p>
+
+<p>
+  <img src="https://img.shields.io/badge/Donanım-ESP32--CAM-orange?style=for-the-badge&logo=espressif" />
+  <img src="https://img.shields.io/badge/Yazılım-Arduino%20IDE-00979D?style=for-the-badge&logo=arduino" />
+  <img src="https://img.shields.io/badge/Platform-Telegram-26A5E4?style=for-the-badge&logo=telegram" />
+</p>
+
+</div>
+
+---
+
+## 🚀 Proje Hakkında
+Bu proje, masanızın üzerindeki değerli eşyaları korumak için tasarlanmıştır. ESP32-CAM modülü, masadaki eşyaların varlığını sürekli kontrol eder ve bir değişiklik (eşyanın alınması vb.) algıladığında size anlık olarak **tarih, saat ve fotoğraf** bilgisi gönderir.
+
+### 🌟 Temel Özellikler
+* **📸 Anlık Fotoğraf:** Telegram üzerinden `/foto` komutuyla her an fotoğraf alabilme.
+* **🎥 Canlı Yayın:** Yerel ağ üzerinden masayı canlı izleme desteği.
+* **⚠️ Akıllı Takip:** Masadaki eşyalar azaldığında veya yer değiştirdiğinde otomatik uyarı.
+* **📅 Kayıt Sistemi:** Olay anının tarih ve saat bilgisini SD karta ve Telegram'a raporlama.
+
+---
+
+## 🛠️ Donanım Gereksinimleri
+* **ESP32-CAM** (AI-Thinker Modülü)
+* **FTDI Programlayıcı** (Yükleme yapmak için)
+* **MicroSD Kart** (Log kaydı için)
+* **5V 2A Güç Kaynağı** (Stabilite için kritik!)
+
+
+
+---
+
+## 📦 Kurulum ve Kullanım
+
+1.  **Bot Oluşturma:** [BotFather](https://t.me/botfather) üzerinden bir Telegram botu oluşturun ve `API Token`ınızı alın.
+2.  **Kütüphaneler:** Arduino IDE üzerinden `UniversalTelegramBot` ve `ArduinoJson` kütüphanelerini kurun.
+3.  **Ayarlar:** Kod içerisindeki `WIFI_SSID`, `WIFI_PASSWORD` ve `BOT_TOKEN` alanlarını kendi bilgilerinizle doldurun.
+4.  **Yükleme:** ESP32-CAM'i FTDI üzerinden bilgisayara bağlayın ve kodu yükleyin.
+
+---
+
+## 🤖 Telegram Komutları
+| Komut | Açıklama |
+| :--- | :--- |
+| `/start` | Hoşgeldin mesajı ve yardım menüsü. |
+| `/foto` | O anki masa görüntüsünü yakalar ve gönderir. |
+| `/durum` | Sistemin aktiflik durumunu kontrol eder. |
+| `/canli` | Canlı yayın linkini paylaşır. |
+
+---
+
+## 🤝 Katkıda Bulunma
+Bu projeyi geliştirmek isterseniz lütfen bir **Pull Request** açın veya karşılaştığınız sorunları **Issues** kısmından bildirin. 
+
+---
+
+<div align="center">
+  <p>Bu proje <b>Gemini AI</b> yardımıyla geliştirilmiştir. ✨</p>
+  <a href="https://github.com/KULLANICI_ADIN">
+    <img src="https://img.shields.io/badge/GitHub-Profilim-black?style=flat-square&logo=github" />
+  </a>
+</div>
