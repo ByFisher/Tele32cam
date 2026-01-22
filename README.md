@@ -26,11 +26,12 @@ Bu proje, masanızın üzerindeki değerli eşyaları korumak için tasarlanmı�
 
 ---
 
-## 🛠️ Donanım Gereksinimleri
-* **ESP32-CAM** (AI-Thinker Modülü)
-* **FTDI Programlayıcı** (Yükleme yapmak için)
-* **MicroSD Kart** (Log kaydı için)
-* **5V 2A Güç Kaynağı** (Stabilite için kritik!)
+## 🛠️ Donanım Mimarisi
+Proje, yüksek stabilite için **MBR Board (ESP32-CAM Shield)** üzerine inşa edilmiştir.
+
+* **ESP32-CAM:** Ana kontrolcü ve görüntü işleme birimi.
+* **MBR Board:** Kolay programlama, stabil voltaj regülasyonu ve güvenli bağlantı sağlar.
+* **5V/12V DC Adaptör:** MBR Board üzerindeki regülatör sayesinde geniş güç girişi imkanı.
 
 
 
