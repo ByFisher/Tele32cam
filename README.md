@@ -9,7 +9,6 @@
 <p>
   <img src="https://img.shields.io/badge/Donanım-ESP32--CAM-orange?style=for-the-badge&logo=espressif" />
   <img src="https://img.shields.io/badge/Yazılım-Arduino%20IDE-00979D?style=for-the-badge&logo=arduino" />
-  <img src="https://img.shields.io/badge/Platform-Telegram-26A5E4?style=for-the-badge&logo=telegram" />
 </p>
 
 </div>
