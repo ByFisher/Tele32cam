@@ -56,10 +56,6 @@ Bu proje, masanızın üzerindeki değerli eşyaları korumak için tasarlanmı�
 
 ---
 
-## 🤝 Katkıda Bulunma
-Bu projeyi geliştirmek isterseniz lütfen bir **Pull Request** açın veya karşılaştığınız sorunları **Issues** kısmından bildirin. 
-
----
 
 <div align="center">
   <p>Bu proje <b>Gemini AI</b> yardımıyla geliştirilmiştir. ✨</p>
