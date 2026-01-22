@@ -58,8 +58,8 @@ Bu proje, masanızın üzerindeki değerli eşyaları korumak için tasarlanmı�
 
 
 <div align="center">
-  <p>Bu proje <b>Gemini AI</b> yardımıyla geliştirilmiştir. ✨</p>
-  <a href="https://github.com/KULLANICI_ADIN">
+
+  <a href="https://github.com/byfisher">
     <img src="https://img.shields.io/badge/GitHub-Profilim-black?style=flat-square&logo=github" />
   </a>
 </div>
